@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #2c2c2c;
+  color: #f5f5f5;
+}
+
+header {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header h1 {
+  font-size: 5rem;
+  letter-spacing: 1.5px;
+}
+
+.workspace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  position: relative;
+  width: 900px;
+  margin: auto;
+}
+
+.left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 60rem;
+          flex: 1 1 60rem;
+  padding: 0rem 0rem 0rem 8rem;
+}
+
+.right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  position: relative;
+}
+
+form {
+  margin-bottom: 5rem;
+}
+
+#input,
+#submit {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  border: none;
+}
+
+#input {
+  padding: 1.5rem 1.5rem;
+  background: #f5f5f5;
+  color: #2c2c2c;
+  width: 65%;
+  min-width: 30rem;
+}
+
+#input:focus {
+  border: none;
+}
+
+#submit {
+  padding: 1.5rem 3rem;
+  background: #4789eb;
+  color: #f5f5f5;
+  cursor: pointer;
+  margin-left: -3px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#submit:hover {
+  background: #2564c4;
+}
+
+#filter {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  padding: 1.4rem 1rem;
+  cursor: pointer;
+  width: 73%;
+  min-width: 21rem;
+}
+
+#filter option {
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.filter-wrapper::after {
+  content: "\25BC";
+  background: #f29c1b;
+  color: #f5f5f5;
+  padding: 1.5rem 2rem;
+  margin-left: 19rem;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.filter-hover::after {
+  background: #d18006;
+}
+
+.item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2.5rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-item {
+  background: #f5f5f5;
+  color: #2c2c2c;
+  padding: 1.5rem 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  width: 32rem;
+  text-align: center;
+}
+
+.complete-button,
+.delete-button {
+  color: #f5f5f5;
+  border: none;
+  padding: 0rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.complete-button {
+  background: #1ed046;
+}
+
+.complete-button:hover {
+  background: #14922f;
+}
+
+.delete-button {
+  background: #dc513e;
+}
+
+.delete-button:hover {
+  background: #91382c;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall-down {
+  -webkit-transform: translateY(15rem) rotateZ(15deg);
+          transform: translateY(15rem) rotateZ(15deg);
+  opacity: 0;
+}
+
+.completed {
+  opacity: 50%;
+}
+
+.completed div {
+  position: relative;
+}
+
+.completed div .todo-item::after {
+  content: "";
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+  padding: 0.1rem 8rem;
+  background: rgba(44, 44, 44, 0.5);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+.item-wrapper {
+  display: flex;
+  margin-top: 2.5rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-list {
+  list-style: none;
+}
+
+.todo-item {
+  background: #f5f5f5;
+  color: #2c2c2c;
+  padding: 1.5rem 3rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  width: 32rem;
+  text-align: center;
+}
+
+.complete-button,
+.delete-button {
+  color: #f5f5f5;
+  border: none;
+  padding: 0rem 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.complete-button {
+  background: #1ed046;
+  &:hover {
+    background: #14922f;
+  }
+}
+
+.delete-button {
+  background: #dc513e;
+  &:hover {
+    background: rgb(145, 56, 44);
+  }
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+.fall-down {
+  transform: translateY(15rem) rotateZ(15deg);
+  opacity: 0;
+}
+
+.completed {
+  opacity: 50%;
+  div {
+    position: relative;
+    .todo-item::after {
+      content: "";
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+      // transform: translate(-50%, -50%);
+      padding: 0.1rem 8rem;
+      background: rgba($color: #2c2c2c, $alpha: 0.5);
+    }
+  }
+}

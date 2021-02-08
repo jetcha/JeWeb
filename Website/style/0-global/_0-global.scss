@@ -1,0 +1,98 @@
+/*--- Global Settings ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  margin: 0rem 5rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  max-width: 108rem;
+  // padding: 0rem 5rem;
+  margin: auto;
+  // position: relative;
+  // overflow-x: hidden;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: #222222;
+}
+
+::selection {
+  color: white;
+  background: #222222;
+}
+
+/*--- Header Settings ---*/
+nav {
+  min-height: 10vh;
+  padding: 1rem 0rem;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.nav-logo-wrapper {
+  flex-grow: 1;
+  display: flex;
+}
+
+.nav-link-wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    margin: 0rem 1.6rem;
+  }
+}
+
+/*--- Footer Settings ---*/
+footer {
+  min-height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    font-size: 1.2rem;
+  }
+}

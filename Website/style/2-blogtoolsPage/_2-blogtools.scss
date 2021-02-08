@@ -1,0 +1,59 @@
+.blogtools-section {
+  min-height: 85vh;
+  padding: 2rem 0rem;
+}
+
+/*--- Wrapper General ---*/
+.list-row-wrapper {
+  margin: 1.8rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/*--- Search Bar ---*/
+#search-row-wrapper {
+  margin-top: 1.8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#search-bar {
+  padding: 1rem;
+  width: 50rem;
+  border: 1px solid #979797;
+
+  &::placeholder {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+}
+
+input[type="text"] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+
+/*--- Blog List ---*/
+.list-left-wrapper,
+#search-blank-wrapper {
+  width: 15rem;
+  p {
+    font-size: 1.8rem;
+  }
+}
+
+.list-right-wrapper,
+#search-bar-wrapper {
+  flex-grow: 1;
+  h2 {
+    font-size: 1.8rem;
+    font-weight: 400;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.profile-section {
+  min-height: 85vh;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  //flex-wrap: wrap;
+}
+
+.profile-description-wrapper {
+  margin-top: -5vh;
+  max-width: 96.8rem;
+
+  h3 {
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  p {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    margin-bottom: 1.2rem;
+  }
+}
+
+.social-link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  a {
+    margin-right: 1.7rem;
+    text-decoration: underline;
+    font-size: 1.7rem;
+  }
+}

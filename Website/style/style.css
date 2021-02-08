@@ -289,6 +289,10 @@ input[type="text"] {
   line-height: 1.5;
 }
 
+.date-text:hover {
+  text-decoration: underline;
+}
+
 /*--- Journal Post ---*/
 .journal-section {
   min-height: 85vh;

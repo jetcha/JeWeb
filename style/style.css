@@ -37,7 +37,7 @@ a {
 }
 
 nav ul {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   list-style: none;
 }
 
@@ -82,6 +82,15 @@ nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav-logo-wrapper h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 2.6rem;
+}
+
+.nav-logo-wrapper h1 a {
+  color: #2c2c2c;
 }
 
 .nav-link-wrapper ul {

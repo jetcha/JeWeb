@@ -84,13 +84,16 @@ nav {
   display: flex;
 }
 
-.nav-logo-wrapper h1 {
-  font-family: "Fredericka the Great", cursive;
-  font-size: 2.6rem;
+.nav-logo-wrapper a img {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
 }
 
-.nav-logo-wrapper h1 a {
-  color: #2c2c2c;
+.nav-logo-wrapper a:hover img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .nav-link-wrapper ul {
@@ -106,6 +109,8 @@ nav {
 }
 
 .nav-link-wrapper ul li {
+  width: 5rem;
+  text-align: center;
   margin: 0rem 1.6rem;
 }
 
@@ -120,7 +125,8 @@ nav {
 
 #menuToggle a {
   text-decoration: none;
-  color: #232323;
+  font-size: 1.5rem;
+  color: black;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }

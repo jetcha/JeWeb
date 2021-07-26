@@ -1,5 +1,5 @@
 .home-title-section {
-  min-height: 85vh;
+  min-height: 90vh;
   padding: 2rem 0rem;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-bottom: 8%;
+  padding-bottom: 13%;
 
   & h1 {
     writing-mode: vertical-rl;
@@ -34,10 +34,10 @@
 
 .home-scroller-wrapper{
   position:absolute;
-  top: 83%;
+  top: 80%;
 
   & img {
-    width: 20px;
+    width: 24px;
   }
 
   & a div {
@@ -48,5 +48,37 @@
     & div {
       transform: translateY(0.8rem);
     }
+  }
+}
+
+.home-description-section {
+  max-height: 100vh;
+  padding: 2rem 0rem 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home-description-wrapper {
+  text-align: center;
+  margin-top: 20vh;
+
+  & p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    letter-spacing: 0.2rem;
+  }
+}
+
+.home-myphoto-wrapper {
+  z-index: -1;
+  margin: 8rem 0rem 0rem 0rem;
+
+  & img {
+    display:block;
+    margin: auto;
+    width: 95%;
   }
 }

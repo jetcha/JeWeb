@@ -68,20 +68,11 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-.nav-logo-wrapper {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 .nav-logo-wrapper a img {
@@ -92,8 +83,8 @@ nav {
 }
 
 .nav-logo-wrapper a:hover img {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
 }
 
 .nav-link-wrapper ul {
@@ -154,7 +145,7 @@ nav {
   height: 0.2rem;
   margin: 0.5rem 0rem;
   position: relative;
-  top: 0.2rem;
+  top: 0.1rem;
   background: black;
   border-radius: 1rem;
   z-index: 1;
@@ -255,7 +246,7 @@ footer p {
 }
 
 .home-title-section {
-  min-height: 85vh;
+  min-height: 90vh;
   padding: 2rem 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -286,7 +277,7 @@ footer p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 8%;
+  padding-bottom: 13%;
 }
 
 .home-title-wrapper h1 {
@@ -311,11 +302,11 @@ footer p {
 
 .home-scroller-wrapper {
   position: absolute;
-  top: 83%;
+  top: 80%;
 }
 
 .home-scroller-wrapper img {
-  width: 20px;
+  width: 24px;
 }
 
 .home-scroller-wrapper a div {
@@ -328,6 +319,47 @@ footer p {
 .home-scroller-wrapper a:hover div {
   -webkit-transform: translateY(0.8rem);
           transform: translateY(0.8rem);
+}
+
+.home-description-section {
+  max-height: 100vh;
+  padding: 2rem 0rem 2rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.home-description-wrapper {
+  text-align: center;
+  margin-top: 20vh;
+}
+
+.home-description-wrapper p {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  letter-spacing: 0.2rem;
+}
+
+.home-myphoto-wrapper {
+  z-index: -1;
+  margin: 8rem 0rem 0rem 0rem;
+}
+
+.home-myphoto-wrapper img {
+  display: block;
+  margin: auto;
+  width: 95%;
 }
 
 .blogtools-section {

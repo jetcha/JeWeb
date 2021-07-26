@@ -362,7 +362,7 @@ footer p {
   width: 95%;
 }
 
-.blogtools-section {
+.workbox-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }
@@ -397,37 +397,36 @@ footer p {
 }
 
 #search-bar {
-  padding: 1rem;
-  width: 50rem;
-  border: 1px solid #979797;
+  padding: 0.6rem 1rem;
+  width: 35rem;
+  border: 1px solid #2c2c2c;
 }
 
 #search-bar::-webkit-input-placeholder {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 #search-bar:-ms-input-placeholder {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 #search-bar::-ms-input-placeholder {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 #search-bar::placeholder {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-weight: 300;
 }
 
 input[type="text"] {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
-/*--- Blog List ---*/
+/*--- Work List ---*/
 .list-left-wrapper,
 #search-blank-wrapper {
   width: 15rem;
@@ -435,7 +434,7 @@ input[type="text"] {
 
 .list-left-wrapper p,
 #search-blank-wrapper p {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
 }
 
 .list-right-wrapper,
@@ -447,7 +446,7 @@ input[type="text"] {
 
 .list-right-wrapper h2,
 #search-bar-wrapper h2 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 400;
 }
 

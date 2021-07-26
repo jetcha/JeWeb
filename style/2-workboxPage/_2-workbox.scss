@@ -1,4 +1,4 @@
-.blogtools-section {
+.workbox-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }
@@ -21,27 +21,26 @@
 }
 
 #search-bar {
-  padding: 1rem;
-  width: 50rem;
-  border: 1px solid #979797;
+  padding: 0.6rem 1rem;
+  width: 35rem;
+  border: 1px solid #2c2c2c;
 
   &::placeholder {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 300;
   }
 }
 
 input[type="text"] {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
-/*--- Blog List ---*/
+/*--- Work List ---*/
 .list-left-wrapper,
 #search-blank-wrapper {
   width: 15rem;
   p {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -49,7 +48,7 @@ input[type="text"] {
 #search-bar-wrapper {
   flex-grow: 1;
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 400;
 
     &:hover {

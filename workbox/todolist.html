@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your Boy: Lazy Coder" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>工作箱</title>
+</head>
+
+<body>
+    <!-- Top Navigation-->
+    <header class="main-header">
+        <nav>
+            <div class="nav-logo-wrapper">
+                <a href="./index.html">
+                    <div class="nav-logo">
+                        <img src="./icon/home-icon.svg" alt="home-icon">
+                    </div>
+                </a>
+            </div>
+            <div class="nav-link-wrapper">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menu">
+                        <li><a href="./workbox.html">工作箱</a></li>
+                        <li><a href="./">日記</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Tools section-->
+    <section class="blogtools-section">
+        <div id="search-row-wrapper">
+            <div id="search-blank-wrapper"></div>
+            <div id="search-bar-wrapper">
+                <input type="text" id="search-bar" onkeyup="blogFilter()" placeholder="搜尋" />
+            </div>
+        </div>
+        <div class="list-row-wrapper">
+            <div class="list-left-wrapper">
+                <p>Web App</p>
+            </div>
+            <div class="list-right-wrapper">
+                <h2>
+                    <a href="./tools/todo.html" target="_blank" rel="noopener noreferrer">待辦事項清單 - Get the shit done</a>
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <p>© 2021 LazyCoder</p>
+    </footer>
+    <script src="./script/search.js"></script>
+</body>
+
+</html>

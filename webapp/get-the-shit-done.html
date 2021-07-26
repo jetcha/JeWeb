@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./get-the-shit-done/style/style.css" />
+  <title>Todo List - Get the shit done</title>
+</head>
+
+<body>
+  <header>
+    <h1>Get the shit done.</h1>
+  </header>
+  <section class="workspace">
+    <div class="left">
+      <form>
+        <div class="input-box">
+          <input type="text" name="input" id="input" />
+          <button type="submit" id="submit">Add</button>
+        </div>
+      </form>
+      <div class="list-wrapper">
+        <ul class="todo-list">
+          <!-- <div class="item-wrapper">
+              <div>
+                <li class="todo-item">Item1</li>
+              </div>
+              <button class="complete-button">
+                <i class="fas fa-check"></i>
+              </button>
+              <button class="delete-button">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div> -->
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+      <div class="filter-wrapper">
+        <select name="filter" id="filter">
+          <option value="all">All</option>
+          <option value="ongoing">Ongoing</option>
+          <option value="done">Done</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <script src="./get-the-shit-done/app.js"></script>
+</body>
+
+</html>

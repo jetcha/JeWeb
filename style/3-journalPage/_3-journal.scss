@@ -1,53 +1,27 @@
-/*--- Journal CalendarPage ---*/
-.journal-calendar-section {
+/*-------------------------*/
+/*--- Journal List Part ---*/
+/*-------------------------*/
+.journal-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }
 
-.month-block-wrapper {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
-}
+.journal-year-wrapper {
+  margin: 4rem 0rem 2rem 0rem;
 
-.month-wrapper {
-  margin-bottom: 1rem;
-}
-
-.month-text {
-  font-size: 1.8rem;
-}
-
-.date-text {
-  margin-right: 1.1rem;
-  font-size: 1.7rem;
-  line-height: 1.5;
-  &:hover {
-    text-decoration: underline;
-  }
-}
-
-/*--- Journal Post ---*/
-.journal-section {
-  min-height: 85vh;
-  padding: 2rem 0rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.journal-wrapper {
-  margin-top: 2rem;
-  max-width: 96.8rem;
-
-  .journal-date {
-    margin-top: 2rem;
-    text-align: right;
-  }
-
-  p {
+  & p {
     font-size: 1.6rem;
-    line-height: 2;
-    margin-bottom: 1.2rem;
+    font-weight: 300;
+  }
+}
+
+.journal-link-wrapper {
+  & p {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  & a:hover {
+      text-decoration: underline;
   }
 }

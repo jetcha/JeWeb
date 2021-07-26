@@ -624,67 +624,29 @@ input[type="text"] {
   right: -2.2rem;
 }
 
-/*--- Journal CalendarPage ---*/
-.journal-calendar-section {
+/*-------------------------*/
+/*--- Journal List Part ---*/
+/*-------------------------*/
+.journal-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }
 
-.month-block-wrapper {
-  margin-top: 3rem;
-  margin-bottom: 3.5rem;
+.journal-year-wrapper {
+  margin: 4rem 0rem 2rem 0rem;
 }
 
-.month-wrapper {
-  margin-bottom: 1rem;
-}
-
-.month-text {
-  font-size: 1.8rem;
-}
-
-.date-text {
-  margin-right: 1.1rem;
-  font-size: 1.7rem;
-  line-height: 1.5;
-}
-
-.date-text:hover {
-  text-decoration: underline;
-}
-
-/*--- Journal Post ---*/
-.journal-section {
-  min-height: 85vh;
-  padding: 2rem 0rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.journal-wrapper {
-  margin-top: 2rem;
-  max-width: 96.8rem;
-}
-
-.journal-wrapper .journal-date {
-  margin-top: 2rem;
-  text-align: right;
-}
-
-.journal-wrapper p {
+.journal-year-wrapper p {
   font-size: 1.6rem;
-  line-height: 2;
-  margin-bottom: 1.2rem;
+  font-weight: 300;
+}
+
+.journal-link-wrapper p {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.journal-link-wrapper a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

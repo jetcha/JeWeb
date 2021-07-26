@@ -6,11 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Your Boy: Lazy Coder" />
   <meta name="robots" content="index, follow" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css" />
-  <title>LazyCoder</title>
+  <title>日記</title>
 </head>
 
 <body>
@@ -18,7 +19,11 @@
   <header class="main-header">
     <nav>
       <div class="nav-logo-wrapper">
-        <h1><a href="./index.html">LazyCoder</a></h1>
+        <a href="./index.html">
+          <div class="nav-logo">
+            <img src="./icon/home-icon.svg" alt="home-icon">
+          </div>
+        </a>
       </div>
       <div class="nav-link-wrapper">
         <div id="menuToggle">
@@ -27,33 +32,25 @@
           <span></span>
           <span></span>
           <ul id="menu">
-            <li><a href="./blog.html">Blog</a></li>
-            <li><a href="./tools.html">Tools</a></li>
-            <li><a href="./journal.html">Journal</a></li>
+            <li><a href="./workbox.html">工作箱</a></li>
+            <li><a href="./journal.html">日記</a></li>
           </ul>
         </div>
       </div>
     </nav>
   </header>
-  <!-- Journal Calendar section-->
-  <section class="journal-calendar-section">
-    <div class="month-block-wrapper">
-      <div class="month-wrapper">
-        <p class="month-text">Feb 2021</p>
-      </div>
-      <div class="date-wrapper">
-        <a href="./journal/20210206.html" class="date-text">06</a>
-        <a href="./journal/20210208.html" class="date-text">08</a>
-        <a href="./journal/20210209.html" class="date-text">09</a>
-        <a href="./journal/20210210.html" class="date-text">10</a>
-        <a href="./journal/20210212.html" class="date-text">12</a>
-        <a href="./journal/20210213.html" class="date-text">13</a>
-      </div>
+  <!-- Tools section-->
+  <section class="journal-list-section">
+    <div class="journal-year-wrapper">
+      <p>民國110年</p>
+    </div>
+    <div class="journal-link-wrapper">
+      <p><a href="">7月29 - 於是我的馬拉松已經準備了一半了</a></p>
     </div>
   </section>
   <!-- Footer -->
   <footer class="main-footer">
-    <p>© 2020 LazyCoder</p>
+    <p>© 2021 LazyCoder</p>
   </footer>
 </body>
 

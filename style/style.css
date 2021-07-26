@@ -306,7 +306,7 @@ footer p {
 }
 
 .home-scroller-wrapper img {
-  width: 24px;
+  width: 2.4rem;
 }
 
 .home-scroller-wrapper a div {
@@ -362,6 +362,9 @@ footer p {
   width: 95%;
 }
 
+/*-------------------------*/
+/*--- Workbox Lisr Part ---*/
+/*-------------------------*/
 .workbox-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
@@ -399,7 +402,7 @@ footer p {
 #search-bar {
   padding: 0.6rem 1rem;
   width: 35rem;
-  border: 1px solid #2c2c2c;
+  border: 0.1rem solid #2c2c2c;
 }
 
 #search-bar::-webkit-input-placeholder {
@@ -453,6 +456,172 @@ input[type="text"] {
 .list-right-wrapper h2:hover,
 #search-bar-wrapper h2:hover {
   text-decoration: underline;
+}
+
+/*-------------------------------*/
+/*--- Individual Workbox Part ---*/
+/*-------------------------------*/
+.workbox-section {
+  min-height: 90vh;
+  padding: 2rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.workbox-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.workbox-title-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: start;
+      align-self: start;
+}
+
+.workbox-title-wrapper h1 {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.6rem;
+  margin: -8rem 0rem 0rem 0rem;
+}
+
+.workbox-title-wrapper p {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 1.4rem;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  margin: 8rem 0.5rem 0rem 0rem;
+}
+
+.workbox-img-wrapper img {
+  width: 82rem;
+}
+
+.workbox-link-wrapper {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+}
+
+.workbox-link-wrapper p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  line-height: 2.8rem;
+}
+
+.workbox-link-wrapper a:hover p {
+  text-decoration: underline;
+}
+
+.workbox-scroller-wrapper {
+  position: absolute;
+  top: 95%;
+}
+
+.workbox-scroller-wrapper img {
+  width: 2.4rem;
+}
+
+.workbox-scroller-wrapper a div {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+.workbox-scroller-wrapper a:hover div {
+  -webkit-transform: translateY(0.8rem);
+          transform: translateY(0.8rem);
+}
+
+.workbox-description-section {
+  min-height: 40vh;
+  padding: 2rem 0rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.workbox-description-section div {
+  position: relative;
+  width: 82rem;
+  text-align: center;
+}
+
+.workbox-description-section div p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+}
+
+.workbox-description-section div img {
+  position: absolute;
+  width: 2rem;
+}
+
+.workbox-description-section div .left-quote {
+  top: -2.2rem;
+  left: -2.2rem;
+}
+
+.workbox-description-section div .right-quote {
+  top: -2.2rem;
+  right: -2.2rem;
 }
 
 /*--- Journal CalendarPage ---*/

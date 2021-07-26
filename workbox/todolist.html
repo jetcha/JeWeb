@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./style/style.css" />
-    <title>工作箱</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <title>待辦事項清單</title>
 </head>
 
 <body>
@@ -19,9 +19,9 @@
     <header class="main-header">
         <nav>
             <div class="nav-logo-wrapper">
-                <a href="./index.html">
+                <a href="../index.html">
                     <div class="nav-logo">
-                        <img src="./icon/home-icon.svg" alt="home-icon">
+                        <img src="../icon/home-icon.svg" alt="home-icon">
                     </div>
                 </a>
             </div>
@@ -32,7 +32,7 @@
                     <span></span>
                     <span></span>
                     <ul id="menu">
-                        <li><a href="./workbox.html">工作箱</a></li>
+                        <li><a href="../workbox.html">工作箱</a></li>
                         <li><a href="./">日記</a></li>
                     </ul>
                 </div>
@@ -40,29 +40,44 @@
         </nav>
     </header>
     <!-- Tools section-->
-    <section class="blogtools-section">
-        <div id="search-row-wrapper">
-            <div id="search-blank-wrapper"></div>
-            <div id="search-bar-wrapper">
-                <input type="text" id="search-bar" onkeyup="blogFilter()" placeholder="搜尋" />
+    <section class="workbox-section">
+        <div class="workbox-wrapper">
+            <div class="workbox-title-wrapper">
+                <p>民國109年6月23日</p>
+                <h1>待辦事項清單</h1>
+            </div>
+            <div class="workbox-img-wrapper">
+                <img src="../photo/todolist-overview.jpg" alt="todolist-overview">
+            </div>
+            <div class="workbox-link-wrapper">
+                <a href="../webapp/get-the-shit-done.html" target="_blank" rel="noopener noreferrer">
+                    <p>> 進入應用</p>
+                </a>
+                <a href="https://github.com/j900213/TodoList-WebApp" target="_blank" rel="noopener noreferrer">
+                    <p>> 原始碼</p>
+                </a>
             </div>
         </div>
-        <div class="list-row-wrapper">
-            <div class="list-left-wrapper">
-                <p>Web App</p>
-            </div>
-            <div class="list-right-wrapper">
-                <h2>
-                    <a href="./tools/todo.html" target="_blank" rel="noopener noreferrer">待辦事項清單 - Get the shit done</a>
-                </h2>
-            </div>
+        <div class="workbox-scroller-wrapper">
+            <a href="#workbox-description">
+                <div>
+                    <img src="../icon/scroller-icon.svg" alt="scroller-icon">
+                </div>
+            </a>
+        </div>
+    </section>
+    <section class="workbox-description-section" id="workbox-description">
+        <div>
+            <img class="left-quote" src="../icon/quote-left-icon.svg" alt="quote-left-icon">
+            <p>Get the shit done是我人生第一個製作的Web
+                App，其實也沒什麽技術含量，我相信大部分學Javascript的人都會把這個當作第一個實做項目。但無論如何，完成這個之後還是很有成就感，而且還實用——哎，前端工程師真的幸福。</p>
+            <img class="right-quote" src="../icon/quote-right-icon.svg" alt="quote-right-icon">
         </div>
     </section>
     <!-- Footer -->
     <footer class="main-footer">
         <p>© 2021 LazyCoder</p>
     </footer>
-    <script src="./script/search.js"></script>
 </body>
 
 </html>

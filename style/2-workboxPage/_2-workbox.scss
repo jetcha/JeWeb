@@ -1,3 +1,6 @@
+/*-------------------------*/
+/*--- Workbox Lisr Part ---*/
+/*-------------------------*/
 .workbox-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
@@ -23,7 +26,7 @@
 #search-bar {
   padding: 0.6rem 1rem;
   width: 35rem;
-  border: 1px solid #2c2c2c;
+  border: 0.1rem solid #2c2c2c;
 
   &::placeholder {
     font-size: 1.4rem;
@@ -53,6 +56,131 @@ input[type="text"] {
 
     &:hover {
       text-decoration: underline;
+    }
+  }
+}
+
+/*-------------------------------*/
+/*--- Individual Workbox Part ---*/
+/*-------------------------------*/
+.workbox-section {
+  min-height: 90vh;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.workbox-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.workbox-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-self: start;
+
+  & h1 {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 2.4rem;
+    font-weight: 500;
+    letter-spacing: 0.6rem;
+    margin: -8rem 0rem 0rem 0rem;
+  }
+
+  & p {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 1.4rem;
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    margin: 8rem 0.5rem 0rem 0rem;
+  }
+}
+
+.workbox-img-wrapper {
+  & img {
+    width: 82rem;
+  }
+}
+
+.workbox-link-wrapper {
+  align-self: end;
+
+  & p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.2rem;
+    line-height: 2.8rem;
+  }
+
+  & a:hover {
+    & p {
+      text-decoration: underline;
+    }
+  }
+}
+
+.workbox-scroller-wrapper {
+  position: absolute;
+  top: 95%;
+
+  & img {
+    width: 2.4rem;
+  }
+
+  & a div {
+    transition: transform .4s ease-in-out;
+  }
+
+  & a:hover {
+    & div {
+      transform: translateY(0.8rem);
+    }
+  }
+}
+
+.workbox-description-section {
+  min-height: 40vh;
+  padding: 2rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  & div {
+    position: relative;
+    width: 82rem;
+    text-align: center;
+
+    & p {
+      font-size: 1.6rem;
+      font-weight: 300;
+      line-height: 2.6rem;
+    }
+
+    & img {
+      position: absolute;
+      width: 2rem;
+    }
+
+    & .left-quote {
+      top: -2.2rem;
+      left: -2.2rem;
+    }
+
+    & .right-quote {
+      top: -2.2rem;
+      right: -2.2rem;
     }
   }
 }

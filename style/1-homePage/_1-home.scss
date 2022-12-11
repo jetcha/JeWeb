@@ -1,84 +1,43 @@
-.home-title-section {
-  min-height: 90vh;
-  padding: 2rem 0rem;
+#home-section {
+  min-height: 85vh;
+  padding: 0rem 0rem 5vh 0rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   //flex-wrap: wrap;
 }
 
-.home-title-wrapper {
+#home-image-wrapper {
+  & img {
+    height: 60rem;
+  }
+}
+
+#home-description-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-bottom: 13%;
 
-  & h1 {
-    writing-mode: vertical-rl;
-    font-size: 2.4rem;
-    font-weight: 500;
-    letter-spacing: 0.6rem;
-    margin: 0rem 0.5rem 6.5rem 0.5rem;
-  }
+  & div {
+    height: 60rem;
 
-  & p {
-    writing-mode: vertical-rl;
-    font-size: 1.3rem;
-    font-weight: 200;
-    letter-spacing: 0.4rem;
-    margin: 6.5rem 0.5rem 0rem 0.5rem;
-  }
-}
-
-.home-scroller-wrapper{
-  position:absolute;
-  top: 80%;
-
-  & img {
-    width: 2.4rem;
-  }
-
-  & a div {
-    transition: transform .4s ease-in-out;
-  }
-
-  & a:hover {
-    & div {
-      transform: translateY(0.8rem);
+    & #home-description {
+      writing-mode: vertical-rl;
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: 0.5rem;
+      line-height: 3.2rem;
     }
-  }
-}
 
-.home-description-section {
-  max-height: 100vh;
-  padding: 2rem 0rem 2rem 0rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.home-description-wrapper {
-  text-align: center;
-  margin-top: 20vh;
-
-  & p {
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    letter-spacing: 0.2rem;
-  }
-}
-
-.home-myphoto-wrapper {
-  z-index: -1;
-  margin: 8rem 0rem 0rem 0rem;
-
-  & img {
-    display:block;
-    margin: auto;
-    width: 95%;
+    & #home-date {
+      writing-mode: vertical-rl;
+      font-size: 1.2rem;
+      font-weight: 400;
+      letter-spacing: 0.4rem;
+      //TODO: There must be a better way to do this
+      margin: 43.6rem 2rem 0rem 0.5rem;
+    }
   }
 }

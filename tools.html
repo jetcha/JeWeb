@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css" />
-  <title>首頁 - Jet Chang</title>
+  <title>工具 - Jet Chang</title>
 </head>
 
 <body>
@@ -23,24 +23,29 @@
       </div>
       <div id="nav-link-wrapper">
         <ul>
-          <li><a class="nav-link-current" href="./index.html">首頁</a></li>
+          <li><a href="./index.html">首頁</a></li>
           <li><a href="./journal.html">日誌</a></li>
-          <li><a href="./tools.html">工具</a></li>
+          <li><a class="nav-link-current" href="./tools.html">工具</a></li>
         </ul>
       </div>
     </nav>
   </header>
-  <!-- Profile section -->
-  <section id="home-section">
-    <div id="home-image-wrapper">
-      <img src="./image/home-pic.jpg" alt="home-image">
-    </div>
-    <div id="home-description-wrapper">
-      <div>
-        <p id="home-date">——民國一一一年十月</p>
+  <!-- Tools section-->
+  <section id="tools-list-section">
+    <div id="search-wrapper">
+      <div id="search-blank-wrapper"></div>
+      <div id="search-bar-wrapper">
+        <input type="text" id="search-bar" onkeyup="blogFilter()" placeholder="搜尋" />
       </div>
-      <div>
-        <p id="home-description">張志杰，男，二十八歲，林口人，嵌入式軟體工程師，沒有社交軟體，這裏是他唯一跟世界抒發自己的管道。</p>
+    </div>
+    <div class="tool-wrapper">
+      <div class="tool-type-wrapper">
+        <p>Web App</p>
+      </div>
+      <div class="tool-name-wrapper">
+        <h3>
+          <a href="./tools/todolist.html" rel="noopener noreferrer">待辦事項清單 - Get the shit done</a>
+        </h3>
       </div>
     </div>
   </section>
@@ -48,6 +53,7 @@
   <footer id="global-footer">
     <p> © JetChang 2022 </p>
   </footer>
+  <script src="./script/search.js"></script>
 </body>
 
 </html>

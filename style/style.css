@@ -145,24 +145,13 @@ footer p {
   margin: 43.6rem 2rem 0rem 0.5rem;
 }
 
-/*-------------------------*/
-/*--- Workbox Lisr Part ---*/
-/*-------------------------*/
-.workbox-list-section {
+#tools-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }
 
-/*--- Wrapper General ---*/
-.list-row-wrapper {
-  margin: 1.8rem 0rem;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-}
-
 /*--- Search Bar ---*/
-#search-row-wrapper {
+#search-wrapper {
   margin-top: 1.8rem;
   margin-bottom: 4rem;
   display: flex;
@@ -192,34 +181,39 @@ input[type=text] {
   font-size: 1.4rem;
 }
 
-/*--- Work List ---*/
-.list-left-wrapper,
+/*--- Tool General Wrapper ---*/
+.tool-wrapper {
+  margin: 1.8rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/*--- Tool Individual ---*/
+.tool-type-wrapper,
 #search-blank-wrapper {
   width: 15rem;
 }
-.list-left-wrapper p,
+.tool-type-wrapper p,
 #search-blank-wrapper p {
   font-size: 1.7rem;
 }
 
-.list-right-wrapper,
+.tool-name-wrapper,
 #search-bar-wrapper {
   flex-grow: 1;
 }
-.list-right-wrapper h2,
-#search-bar-wrapper h2 {
+.tool-name-wrapper h3,
+#search-bar-wrapper h3 {
   font-size: 1.7rem;
   font-weight: 400;
 }
-.list-right-wrapper h2 a:hover,
-#search-bar-wrapper h2 a:hover {
+.tool-name-wrapper h3 a:hover,
+#search-bar-wrapper h3 a:hover {
   text-decoration: underline;
 }
 
-/*-------------------------------*/
-/*--- Individual Workbox Part ---*/
-/*-------------------------------*/
-.workbox-section {
+.tools-section {
   min-height: 90vh;
   padding: 2rem 0rem;
   display: flex;
@@ -228,7 +222,7 @@ input[type=text] {
   justify-content: center;
 }
 
-.workbox-wrapper {
+.tools-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -237,14 +231,14 @@ input[type=text] {
   margin-bottom: 3rem;
 }
 
-.workbox-title-wrapper {
+.tools-title-wrapper {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   align-self: start;
 }
-.workbox-title-wrapper h1 {
+.tools-title-wrapper h1 {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   text-orientation: upright;
@@ -253,7 +247,7 @@ input[type=text] {
   letter-spacing: 0.6rem;
   margin: -8rem 0rem 0rem 0rem;
 }
-.workbox-title-wrapper p {
+.tools-title-wrapper p {
   -ms-writing-mode: tb-rl;
       writing-mode: vertical-rl;
   text-orientation: upright;
@@ -263,38 +257,38 @@ input[type=text] {
   margin: 8rem 0.5rem 0rem 0rem;
 }
 
-.workbox-img-wrapper img {
+.tools-img-wrapper img {
   width: 82rem;
 }
 
-.workbox-link-wrapper {
+.tools-link-wrapper {
   align-self: end;
 }
-.workbox-link-wrapper p {
+.tools-link-wrapper p {
   font-size: 1.6rem;
   font-weight: 400;
   letter-spacing: 0.2rem;
   line-height: 2.8rem;
 }
-.workbox-link-wrapper a:hover p {
+.tools-link-wrapper a:hover p {
   text-decoration: underline;
 }
 
-.workbox-scroller-wrapper {
+.tools-scroller-wrapper {
   position: absolute;
   top: 95%;
 }
-.workbox-scroller-wrapper img {
+.tools-scroller-wrapper img {
   width: 2.4rem;
 }
-.workbox-scroller-wrapper a div {
+.tools-scroller-wrapper a div {
   transition: transform 0.4s ease-in-out;
 }
-.workbox-scroller-wrapper a:hover div {
+.tools-scroller-wrapper a:hover div {
   transform: translateY(0.8rem);
 }
 
-.workbox-description-section {
+.tools-description-section {
   min-height: 40vh;
   padding: 2rem 0rem;
   display: flex;
@@ -302,33 +296,30 @@ input[type=text] {
   align-items: center;
   justify-content: center;
 }
-.workbox-description-section div {
+.tools-description-section div {
   position: relative;
   width: 82rem;
   text-align: center;
 }
-.workbox-description-section div p {
+.tools-description-section div p {
   font-size: 1.6rem;
   font-weight: 300;
   line-height: 2.6rem;
 }
-.workbox-description-section div img {
+.tools-description-section div img {
   position: absolute;
   width: 2rem;
 }
-.workbox-description-section div .left-quote {
+.tools-description-section div .left-quote {
   top: -2.2rem;
   left: -2.2rem;
 }
-.workbox-description-section div .right-quote {
+.tools-description-section div .right-quote {
   top: -2.2rem;
   right: -2.2rem;
 }
 
-/*-------------------------*/
-/*--- Journal List Part ---*/
-/*-------------------------*/
-.journal-list-section {
+#journal-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }

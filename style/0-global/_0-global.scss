@@ -93,6 +93,14 @@ nav {
   }
 }
 
+//TODO: Maybe add a cool hover effect here
+.nav-link-current {
+  padding-top: 0.3rem;
+  border-width: 0.1rem 0rem 0rem 0rem;
+  border-color: #222222;
+  border-style: solid;
+}
+
 /*--- Footer Settings ---*/
 footer {
   min-height: 3vh;

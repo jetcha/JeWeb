@@ -1,7 +1,4 @@
-/*-------------------------*/
-/*--- Journal List Part ---*/
-/*-------------------------*/
-.journal-list-section {
+#journal-list-section {
   min-height: 85vh;
   padding: 2rem 0rem;
 }
@@ -22,6 +19,6 @@
   }
 
   & a:hover {
-      text-decoration: underline;
+    text-decoration: underline;
   }
 }

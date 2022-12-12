@@ -1,0 +1,60 @@
+#tools-list-section {
+  min-height: 85vh;
+  padding: 2rem 0rem;
+}
+
+/*--- Search Bar ---*/
+#search-wrapper {
+  margin-top: 1.8rem;
+  margin-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#search-bar {
+  padding: 0.6rem 1rem;
+  width: 35rem;
+  border: 0.1rem solid #2c2c2c;
+
+  &::placeholder {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+}
+
+input[type="text"] {
+  font-size: 1.4rem;
+}
+
+/*--- Tool General Wrapper ---*/
+.tool-wrapper {
+  margin: 1.8rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/*--- Tool Individual ---*/
+.tool-type-wrapper,
+#search-blank-wrapper {
+  width: 15rem;
+
+  p {
+    font-size: 1.7rem;
+  }
+}
+
+.tool-name-wrapper,
+#search-bar-wrapper {
+  flex-grow: 1;
+
+  h3 {
+    font-size: 1.7rem;
+    font-weight: 400;
+
+    & a:hover {
+      text-decoration: underline;
+    }
+  }
+}

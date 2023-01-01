@@ -108,7 +108,7 @@ footer p {
   font-size: 1rem;
 }
 
-#home-section {
+#home-page-section {
   min-height: 85vh;
   padding: 0rem 0rem 5vh 0rem;
   display: flex;
@@ -321,8 +321,8 @@ input[type=text] {
   right: -2.2rem;
 }
 
-#journal-section {
-  min-height: 85vh;
+#journal-page-section {
+  min-height: 75vh;
   margin: 10vh 0rem 0rem 0rem;
   display: flex;
   flex-direction: column;
@@ -358,4 +358,35 @@ input[type=text] {
 
 .journal-title-link-wrapper p a:hover {
   color: #444444;
+}
+
+#journal-post-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.journal-post-wrapper {
+  max-height: 80rem;
+  padding: 0rem 15.6rem 9rem 15.6rem;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: justify;
+}
+.journal-post-wrapper p {
+  margin-left: 1.5rem;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  line-height: 2.6rem;
+}
+.journal-post-wrapper .journal-post-date {
+  margin-right: 2rem;
+  text-align: end;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
 }/*# sourceMappingURL=style.css.map */

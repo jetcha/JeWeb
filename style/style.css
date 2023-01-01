@@ -85,7 +85,9 @@ nav ul {
 #nav-link-wrapper ul li a {
   font-size: 1.6rem;
   font-weight: 400;
-  transition: color 0.3s ease;
+}
+#nav-link-wrapper ul li a:hover {
+  color: #444444;
 }
 
 .nav-link-current {
@@ -319,23 +321,41 @@ input[type=text] {
   right: -2.2rem;
 }
 
-#journal-list-section {
+#journal-section {
   min-height: 85vh;
-  padding: 2rem 0rem;
+  margin: 10vh 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: start;
 }
 
-.journal-year-wrapper {
-  margin: 4rem 0rem 2rem 0rem;
+#journal-year-month-wrapper {
+  display: flex;
+  align-items: flex-end;
 }
-.journal-year-wrapper p {
-  font-size: 1.6rem;
-  font-weight: 300;
+#journal-year-month-wrapper div {
+  margin: 0rem 0.3rem;
+}
+#journal-year-month-wrapper div p {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  letter-spacing: 0.6rem;
 }
 
-.journal-link-wrapper p {
-  font-size: 1.6rem;
-  font-weight: 300;
+#journal-title-wrapper {
+  display: flex;
+  align-items: flex-start;
 }
-.journal-link-wrapper a:hover {
-  text-decoration: underline;
+#journal-title-wrapper div {
+  margin: 0rem 0.3rem;
+}
+#journal-title-wrapper div p {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  letter-spacing: 0.6rem;
+}
+
+.journal-title-link-wrapper p a:hover {
+  color: #444444;
 }/*# sourceMappingURL=style.css.map */

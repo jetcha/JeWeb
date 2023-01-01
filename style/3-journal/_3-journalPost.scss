@@ -1,0 +1,31 @@
+#journal-post-section {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.journal-post-wrapper {
+  max-height: 80rem;
+  padding: 0rem 15.6rem 9rem 15.6rem;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: justify;
+
+  & p {
+    margin-left: 1.5rem;
+    writing-mode: vertical-rl;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.4rem;
+    line-height: 2.6rem;
+  }
+
+  & .journal-post-date {
+    margin-right: 2rem;
+    text-align: end;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.3rem;
+  }
+}

@@ -85,7 +85,9 @@ nav ul {
 #nav-link-wrapper ul li a {
   font-size: 1.6rem;
   font-weight: 400;
-  transition: color 0.3s ease;
+}
+#nav-link-wrapper ul li a:hover {
+  color: #444444;
 }
 
 .nav-link-current {
@@ -106,7 +108,7 @@ footer p {
   font-size: 1rem;
 }
 
-#home-section {
+#home-page-section {
   min-height: 85vh;
   padding: 0rem 0rem 5vh 0rem;
   display: flex;
@@ -319,23 +321,72 @@ input[type=text] {
   right: -2.2rem;
 }
 
-#journal-list-section {
+#journal-page-section {
+  min-height: 75vh;
+  margin: 10vh 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: start;
+}
+
+#journal-year-month-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+#journal-year-month-wrapper div {
+  margin: 0rem 0.3rem;
+}
+#journal-year-month-wrapper div p {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  letter-spacing: 0.6rem;
+}
+
+#journal-title-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+#journal-title-wrapper div {
+  margin: 0rem 0.3rem;
+}
+#journal-title-wrapper div p {
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+  letter-spacing: 0.6rem;
+}
+
+.journal-title-link-wrapper p a:hover {
+  color: #444444;
+}
+
+#journal-post-section {
   min-height: 85vh;
-  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
-.journal-year-wrapper {
-  margin: 4rem 0rem 2rem 0rem;
+.journal-post-wrapper {
+  max-height: 80rem;
+  padding: 0rem 15.6rem 9rem 15.6rem;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: justify;
 }
-.journal-year-wrapper p {
+.journal-post-wrapper p {
+  margin-left: 1.5rem;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
   font-size: 1.6rem;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  line-height: 2.6rem;
 }
-
-.journal-link-wrapper p {
-  font-size: 1.6rem;
-  font-weight: 300;
-}
-.journal-link-wrapper a:hover {
-  text-decoration: underline;
+.journal-post-wrapper .journal-post-date {
+  margin-right: 2rem;
+  text-align: end;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
 }/*# sourceMappingURL=style.css.map */

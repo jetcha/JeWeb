@@ -1,24 +1,42 @@
-#journal-list-section {
-  min-height: 85vh;
-  padding: 2rem 0rem;
+#journal-page-section {
+  min-height: 75vh;
+  margin: 10vh 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: start;
 }
 
-.journal-year-wrapper {
-  margin: 4rem 0rem 2rem 0rem;
+#journal-year-month-wrapper {
+  display: flex;
+  align-items: flex-end;
 
-  & p {
-    font-size: 1.6rem;
-    font-weight: 300;
+  & div {
+    margin: 0rem 0.3rem;
+
+    & p {
+      writing-mode: vertical-rl;
+      letter-spacing: 0.6rem;
+    }
   }
 }
 
-.journal-link-wrapper {
-  & p {
-    font-size: 1.6rem;
-    font-weight: 300;
-  }
+#journal-title-wrapper {
+  display: flex;
+  align-items: flex-start;
 
-  & a:hover {
-    text-decoration: underline;
+  & div {
+    margin: 0rem 0.3rem;
+
+    & p {
+      writing-mode: vertical-rl;
+      letter-spacing: 0.6rem;
+    }
+  }
+}
+
+.journal-title-link-wrapper {
+  & p a:hover {
+    color: #444444;
   }
 }
